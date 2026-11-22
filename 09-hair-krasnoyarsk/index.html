@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ===== SEO: заголовок и описание (менеджер меняет под себя) ===== -->
+  <title>ANNETSTILIST — парикмахер-колорист в Красноярске | Airtouch, шатуш, сложное окрашивание</title>
+  <meta name="description" content="Анна — парикмахер-колорист в Красноярске. Сложное окрашивание, airtouch, шатуш, стрижки, укладки и уход за волосами. Онлайн-запись на сайте или во ВКонтакте.">
+
+  <!-- ===== Open Graph для красивых превью в соцсетях ===== -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ANNETSTILIST — парикмахер-колорист в Красноярске">
+  <meta property="og:description" content="Цвет, который вам идёт. Сложное окрашивание, airtouch, шатуш, стрижки и уход. Онлайн-запись.">
+  <meta property="og:image" content="https://picsum.photos/seed/hair-hero/1200/630">
+  <meta property="og:locale" content="ru_RU">
+
+  <!-- ===== Favicon (SVG-градиент, без внешнего файла) ===== -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23c08457'/%3E%3Cstop offset='1' stop-color='%23d8c7b4'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='7' fill='%232b2b2e'/%3E%3Ctext x='16' y='23' font-family='Montserrat,Arial' font-size='18' font-weight='700' fill='url(%23g)' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+
+  <!-- ===== Шрифты Google Fonts: заголовки Cormorant + Montserrat, текст Inter ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500;600;700&family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===================== ШАПКА ===================== -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <!-- Логотип-имя -->
+      <a href="#top" class="logo" aria-label="ANNETSTILIST — на главную">ANNET<span>TSTILIST</span></a>
+
+      <!-- Основная навигация (десктоп) -->
+      <nav class="main-nav" id="mainNav" aria-label="Главная навигация">
+        <ul>
+          <li><a href="#about">Обо мне</a></li>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#works">Работы</a></li>
+          <li><a href="#process">Как проходит</a></li>
+          <li><a href="#reviews">Отзывы</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <a href="#booking" class="btn btn--primary header-cta">Записаться</a>
+
+      <!-- Бургер (виден только на мобильных) -->
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__bg" role="img" aria-label="Пример работы колориста — окрашивание волос"></div>
+      <div class="container hero__inner">
+        <p class="hero__eyebrow reveal">Красноярск · студия цвета</p>
+        <h1 id="hero-title" class="hero__title reveal">Парикмахер-колорист в&nbsp;Красноярске — цвет, который вам идёт</h1>
+        <p class="hero__subtitle reveal">Сложное окрашивание, airtouch и шатуш, стрижки, укладки и профессиональный уход. Индивидуальный подбор оттенка под ваш типаж.</p>
+        <div class="hero__actions reveal">
+          <a href="#booking" class="btn btn--primary btn--lg">Онлайн-запись</a>
+          <a href="#works" class="btn btn--ghost btn--lg">Смотреть работы</a>
+        </div>
+        <ul class="hero__facts reveal">
+          <li><strong>8+</strong><span>лет опыта</span></li>
+          <li><strong>1500+</strong><span>довольных клиентов</span></li>
+          <li><strong>500+</strong><span>сложных окрашиваний</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== ОБО МНЕ ===================== -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div class="about__media reveal">
+          <img src="https://picsum.photos/seed/hair-anna-portrait/720/900" alt="Анна — парикмахер-колорист в работе" loading="lazy" width="720" height="900">
+        </div>
+        <div class="about__body">
+          <p class="section__eyebrow reveal">Обо мне</p>
+          <h2 id="about-title" class="section__title reveal">Меня зовут Анна, и я живу цветом</h2>
+          <p class="reveal">Более 8 лет я работаю с волосами и специализируюсь именно на окрашивании. Для меня цвет — это не просто оттенок из палитры, а инструмент, который подчёркивает черты лица, освежает образ и добавляет уверенности.</p>
+          <p class="reveal">Регулярно прохожу обучение у топовых колористов, слежу за мировыми трендами и владею техниками airtouch, шатуш, балаяж и любым сложным окрашиванием. Работаю только на профессиональных составах и всегда учитываю состояние ваших волос.</p>
+          <ul class="about__list reveal">
+            <li>Сертифицированный колорист, регулярное повышение квалификации</li>
+            <li>Индивидуальный подбор техники и оттенка под цветотип</li>
+            <li>Профессиональные уходы, ботокс и восстановление волос</li>
+            <li>Честная консультация и прогноз результата до начала работы</li>
+          </ul>
+          <a href="#booking" class="btn btn--primary reveal">Записаться на консультацию</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== УСЛУГИ ===================== -->
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <p class="section__eyebrow center reveal">Услуги и цены</p>
+        <h2 id="services-title" class="section__title center reveal">Что я делаю</h2>
+        <!-- Цены меняются здесь; итоговая стоимость зависит от длины и густоты волос -->
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">✦</div>
+            <h3 class="card__title">Сложное окрашивание</h3>
+            <p class="card__desc">Airtouch, шатуш, балаяж, растяжка цвета. Плавные переходы и натуральный эффект выгоревших прядей.</p>
+            <p class="card__price">от 6500 ₽</p>
+            <a href="#booking" class="card__link">Записаться →</a>
+          </article>
+
+          <article class="card card--featured reveal">
+            <span class="card__badge">Популярное</span>
+            <div class="card__icon" aria-hidden="true">✂</div>
+            <h3 class="card__title">Стрижка + укладка</h3>
+            <p class="card__desc">Модельная и салонная стрижка с завершающей укладкой. Подберу форму под овал лица и стиль жизни.</p>
+            <p class="card__price">от 2000 ₽</p>
+            <a href="#booking" class="card__link">Записаться →</a>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">❧</div>
+            <h3 class="card__title">Уход / ботокс для волос</h3>
+            <p class="card__desc">Восстановление, кератин, ботокс и увлажняющие процедуры. Живой блеск и гладкость без утяжеления.</p>
+            <p class="card__price">от 3500 ₽</p>
+            <a href="#booking" class="card__link">Записаться →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== РАБОТЫ ДО / ПОСЛЕ ===================== -->
+    <section class="section works" id="works" aria-labelledby="works-title">
+      <div class="container">
+        <p class="section__eyebrow center reveal">Портфолио</p>
+        <h2 id="works-title" class="section__title center reveal">Мои работы</h2>
+        <!-- Замените picsum-плейсхолдеры на реальные фото работ (соотношение 500×600) -->
+        <div class="gallery">
+          <figure class="gallery__item reveal"><img src="https://picsum.photos/seed/hair1/500/600" alt="Окрашивание airtouch, результат до и после" loading="lazy" width="500" height="600"></figure>
+          <figure class="gallery__item reveal"><img src="https://picsum.photos/seed/hair2/500/600" alt="Шатуш на тёмные волосы" loading="lazy" width="500" height="600"></figure>
+          <figure class="gallery__item reveal"><img src="https://picsum.photos/seed/hair3/500/600" alt="Сложное окрашивание, холодный блонд" loading="lazy" width="500" height="600"></figure>
+          <figure class="gallery__item reveal"><img src="https://picsum.photos/seed/hair4/500/600" alt="Балаяж и укладка" loading="lazy" width="500" height="600"></figure>
+          <figure class="gallery__item reveal"><img src="https://picsum.photos/seed/hair5/500/600" alt="Модельная стрижка с укладкой" loading="lazy" width="500" height="600"></figure>
+          <figure class="gallery__item reveal"><img src="https://picsum.photos/seed/hair6/500/600" alt="Уход и восстановление волос, блеск" loading="lazy" width="500" height="600"></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== КАК ПРОХОДИТ ВИЗИТ ===================== -->
+    <section class="section process" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <p class="section__eyebrow center reveal">Как проходит визит</p>
+        <h2 id="process-title" class="section__title center reveal">Четыре спокойных шага</h2>
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__num" aria-hidden="true">01</span>
+            <h3 class="step__title">Заявка</h3>
+            <p>Вы оставляете заявку на сайте или пишете мне во ВКонтакте. Согласуем удобное время и задачу.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num" aria-hidden="true">02</span>
+            <h3 class="step__title">Консультация</h3>
+            <p>Оцениваю состояние волос, обсуждаем желаемый результат, подбираю технику и оттенок.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num" aria-hidden="true">03</span>
+            <h3 class="step__title">Работа</h3>
+            <p>Аккуратно выполняю окрашивание, стрижку или уход. Комфортно, вкусно пахнет, можно relax.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num" aria-hidden="true">04</span>
+            <h3 class="step__title">Результат и уход</h3>
+            <p>Финальная укладка, рекомендации по домашнему уходу и поддержанию цвета.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== ОТЗЫВЫ ===================== -->
+    <section class="section reviews" id="reviews" aria-labelledby="reviews-title">
+      <div class="container">
+        <p class="section__eyebrow center reveal">Отзывы</p>
+        <h2 id="reviews-title" class="section__title center reveal">Что говорят клиенты</h2>
+        <div class="reviews__grid">
+          <blockquote class="review reveal">
+            <div class="review__stars" aria-label="Оценка 5 из 5">★★★★★</div>
+            <p>«Делала airtouch впервые и попала в самые надёжные руки. Цвет ровно лёг, выглядит дорого и натурально. Анна всё объяснила и подобрала уход.»</p>
+            <footer>— Мария</footer>
+          </blockquote>
+          <blockquote class="review reveal">
+            <div class="review__stars" aria-label="Оценка 5 из 5">★★★★★</div>
+            <p>«Мечтала о холодном блонде без желтизны — получила именно то, что хотела. Волосы живые и блестящие. Спасибо за терпение и профессионализм!»</p>
+            <footer>— Екатерина</footer>
+          </blockquote>
+          <blockquote class="review reveal">
+            <div class="review__stars" aria-label="Оценка 5 из 5">★★★★★</div>
+            <p>«Отличная стрижка и укладка, мастер слышит клиента. Атмосфера приятная, вернусь ещё и подругам посоветую. Однозначно рекомендую.»</p>
+            <footer>— Ольга</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FAQ (аккордеон) ===================== -->
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="container container--narrow">
+        <p class="section__eyebrow center reveal">Вопросы и ответы</p>
+        <h2 id="faq-title" class="section__title center reveal">Частые вопросы</h2>
+
+        <div class="accordion reveal">
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false" aria-controls="faq1-panel" id="faq1-btn">
+              Как подготовиться к сложному окрашиванию?
+              <span class="accordion__icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion__panel" id="faq1-panel" role="region" aria-labelledby="faq1-btn" hidden>
+              <p>Приходите с чистыми сухими волосами без стайлинга. Если недавно красились дома или делали хну — обязательно предупредите заранее, это влияет на технологию.</p>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false" aria-controls="faq2-panel" id="faq2-btn">
+              Сколько держится airtouch и шатуш?
+              <span class="accordion__icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion__panel" id="faq2-panel" role="region" aria-labelledby="faq2-btn" hidden>
+              <p>Сложные техники отрастают мягко и выглядят аккуратно 3–6 месяцев. Коррекцию обычно рекомендуют раз в 3–4 месяца плюс тонирование при желании.</p>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false" aria-controls="faq3-panel" id="faq3-btn">
+              Портят ли волосы окрашивания?
+              <span class="accordion__icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion__panel" id="faq3-panel" role="region" aria-labelledby="faq3-btn" hidden>
+              <p>Работаю на профессиональных составах и щадящих оксидах, добавляю уходы. При соблюдении рекомендаций по домашнему уходу волосы остаются живыми и блестящими.</p>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false" aria-controls="faq4-panel" id="faq4-btn">
+              Как оплатить и можно ли перенести запись?
+              <span class="accordion__icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion__panel" id="faq4-panel" role="region" aria-labelledby="faq4-btn" hidden>
+              <p>Оплата наличными или переводом. Перенести визит можно минимум за 24 часа — напишите мне во ВКонтакте или Telegram, подберём другое время.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== КОНТАКТЫ + ФОРМА ЗАПИСИ ===================== -->
+    <section class="section contacts" id="contacts" aria-labelledby="contacts-title">
+      <div class="container contacts__grid">
+        <!-- Левая колонка: контакты и соцсети -->
+        <div class="contacts__info">
+          <p class="section__eyebrow reveal">Контакты и запись</p>
+          <h2 id="contacts-title" class="section__title reveal">Записывайтесь — жду вас</h2>
+
+          <!-- Телефон меняется здесь (и в атрибуте href tel:) -->
+          <p class="contacts__line reveal">
+            <span class="contacts__label">Телефон</span>
+            <a href="tel:+79000000000">+7 900 000-00-00</a>
+          </p>
+          <p class="contacts__line reveal">
+            <span class="contacts__label">Город</span>
+            <span>Красноярск, студия цвета</span>
+          </p>
+          <p class="contacts__line reveal">
+            <span class="contacts__label">Часы работы</span>
+            <span>Пн–Сб, 10:00–20:00</span>
+          </p>
+
+          <!-- Ссылки на мессенджеры и соцсеть: замените # на реальные ссылки -->
+          <ul class="socials reveal">
+            <li><a class="social social--vk" href="https://vk.com/annetstilist" target="_blank" rel="noopener">ВКонтакте</a></li>
+            <li><a class="social" href="#" aria-label="Telegram">Telegram</a></li>
+            <li><a class="social" href="#" aria-label="WhatsApp">WhatsApp</a></li>
+          </ul>
+        </div>
+
+        <!-- Правая колонка: форма записи (без бэкенда, JS-заглушка) -->
+        <div class="booking reveal" id="booking">
+          <form class="booking__form" id="bookingForm" novalidate>
+            <h3 class="booking__title">Онлайн-запись</h3>
+
+            <div class="field">
+              <label for="name">Имя</label>
+              <input type="text" id="name" name="name" required autocomplete="name" placeholder="Как к вам обращаться">
+            </div>
+
+            <div class="field">
+              <label for="phone">Телефон</label>
+              <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="+7 ___ ___-__-__">
+            </div>
+
+            <div class="field">
+              <label for="service">Услуга</label>
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Выберите услугу</option>
+                <option value="complex">Сложное окрашивание</option>
+                <option value="cut">Стрижка + укладка</option>
+                <option value="care">Уход / ботокс для волос</option>
+                <option value="consult">Консультация</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="date">Желаемая дата</label>
+              <input type="date" id="date" name="date" required>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--block">Отправить заявку</button>
+            <p class="booking__note">Нажимая кнопку, вы соглашаетесь на обработку данных для обратной связи.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== ФУТЕР ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="#top" class="logo logo--footer">ANNET<span>TSTILIST</span></a>
+      <p class="footer-tag">Парикмахер-колорист · Красноярск</p>
+      <nav class="footer-nav" aria-label="Навигация в подвале">
+        <a href="#about">Обо мне</a>
+        <a href="#services">Услуги</a>
+        <a href="#works">Работы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <a class="footer-vk" href="https://vk.com/annetstilist" target="_blank" rel="noopener">vk.com/annetstilist</a>
+      <p class="copyright">© <span id="year">2026</span> ANNETSTILIST. Демонстрационный сайт.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

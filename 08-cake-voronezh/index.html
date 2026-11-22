@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ================= SEO ================= -->
+  <!-- При необходимости замените название, описание и адрес сайта -->
+  <title>Торты от Кати — домашние торты и десерты на заказ в Воронеже</title>
+  <meta name="description" content="Домашние торты, капкейки и десертные боксы на заказ в Воронеже. Натуральные ингредиенты, авторские рецепты, доставка. Заказать торт: +7 (999) 000-00-00">
+  <meta name="keywords" content="торты на заказ Воронеж, домашний кондитер, капкейки, десертный бокс, торт на день рождения">
+  <meta name="author" content="Катя — домашний кондитер, Воронеж">
+  <link rel="canonical" href="https://example.com/">
+
+  <!-- ================= Open Graph ================= -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Торты от Кати">
+  <meta property="og:title" content="Торты от Кати — домашние торты и десерты на заказ в Воронеже">
+  <meta property="og:description" content="Авторские торты, капкейки и десертные наборы из натуральных ингредиентов. Доставка по Воронежу.">
+  <meta property="og:url" content="https://example.com/">
+  <meta property="og:image" content="https://picsum.photos/seed/cake-hero/1200/630">
+  <meta property="og:locale" content="ru_RU">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Торты от Кати — домашние торты в Воронеже">
+  <meta name="twitter:description" content="Авторские торты, капкейки и десертные наборы из натуральных ингредиентов.">
+  <meta name="twitter:image" content="https://picsum.photos/seed/cake-hero/1200/630">
+  <meta name="theme-color" content="#c0426b">
+
+  <!-- ================= Favicon (SVG, без внешних файлов) ================= -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23c0426b'/%3E%3Ctext x='32' y='44' font-size='34' font-family='Georgia,serif' fill='%23f3e3cf' text-anchor='middle'%3E%C2%AB%C2%A0%C2%BB%3C/text%3E%3C/svg%3E">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23c0426b'/%3E%3C/svg%3E">
+
+  <!-- ================= Шрифты Google Fonts ================= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Playfair+Display:wght@500;600;700&family=Comfortaa:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ссылка для пропуска навигации (доступность) -->
+  <a class="skip-link" href="#hero">Перейти к содержанию</a>
+
+  <!-- ================= 1. ШАПКА ================= -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+
+      <a class="logo" href="#hero" aria-label="Торты от Кати — в начало страницы">
+        <span class="logo-mark" aria-hidden="true">&#127859;</span>
+        <span class="logo-text">
+          <span class="logo-name">Торты от Кати</span>
+          <span class="logo-sub">домашний кондитер · Воронеж</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Основная навигация">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#about">Обо мне</a></li>
+          <li><a class="nav-link" href="#catalog">Каталог</a></li>
+          <li><a class="nav-link" href="#gallery">Работы</a></li>
+          <li><a class="nav-link" href="#how">Как заказать</a></li>
+          <li><a class="nav-link" href="#reviews">Отзывы</a></li>
+          <li><a class="nav-link" href="#faq">Вопросы</a></li>
+          <li><a class="nav-link" href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Кнопка «Заказать» ведёт к форме заявки -->
+        <a class="btn btn--primary btn--sm" href="#contacts">Заказать</a>
+
+        <button class="burger" type="button" id="burger"
+                aria-label="Открыть меню" aria-controls="main-nav" aria-expanded="false">
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ================= 2. HERO ================= -->
+    <section class="hero reveal" id="hero">
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <p class="hero-eyebrow">Выпекю на кухне — как для самых близких</p>
+        <h1 class="hero-title">Домашние торты на заказ<br>в&nbsp;Воронеже</h1>
+        <p class="hero-text">
+          Авторские бисквиты, нежные кремы и честные натуральные ингредиенты.
+          Соберу десерт под ваш праздник — от детского дня рождения до свадебного торта.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn btn--primary btn--lg" href="#contacts">Заказать торт</a>
+          <a class="btn btn--ghost btn--lg" href="#catalog">Смотреть каталог</a>
+        </div>
+
+        <ul class="hero-badges" aria-label="Короткие преимущества">
+          <li>Натуральные ингредиенты</li>
+          <li>Опыт более 6 лет</li>
+          <li>Доставка по Воронежу</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= 3. ОБО МНЕ ================= -->
+    <section class="section about reveal" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-media">
+          <img src="https://picsum.photos/seed/cake-baker/720/860"
+               alt="Катя, домашний кондитер, готовит торт на своей кухне"
+               width="720" height="860" loading="lazy">
+        </div>
+
+        <div class="about-content">
+          <p class="section-eyebrow">Обо мне</p>
+          <h2 class="section-title" id="about-title">Меня зовут Катя, и я пеку торты дома</h2>
+
+          <!-- Здесь можно изменить текст блока «Обо мне» -->
+          <p class="lead">
+            Уже больше шести лет я занимаюсь домашним кондитерским делом: начинала с
+            одного бисквита для маминого дня рождения, а сегодня собираю десерты для
+            сотен воронежских семей. Каждый торт делаю сама — от замеса теста до
+            финального декора, без промышленных смесей и «странных» добавок.
+          </p>
+          <p>
+            В работе использую только сливочное масло натурального зерна, свежие ягоды,
+            настоящий бельгийский шоколад и творог высокой жирности. Подбираю вкус под
+            повод и ограничения: сделаю без глютена, без лактозы или менее сладкий
+            вариант — и он всё равно будет восхитительным.
+          </p>
+
+          <dl class="facts">
+            <div class="fact">
+              <dt>Тортов в месяц</dt>
+              <dd>до 40</dd>
+            </div>
+            <div class="fact">
+              <dt>Стаж выпечки</dt>
+              <dd>6 лет</dd>
+            </div>
+            <div class="fact">
+              <dt>Отзывов</dt>
+              <dd>300+</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 4. КАТАЛОГ / УСЛУГИ ================= -->
+    <section class="section section--tint catalog reveal" id="catalog" aria-labelledby="catalog-title">
+      <div class="container">
+        <p class="section-eyebrow">Каталог</p>
+        <h2 class="section-title" id="catalog-title">Что я предлагаю</h2>
+        <p class="section-note">Цены указаны за базовую комплектацию. Точную стоимость посчитаю после обсуждения начинки и декора.</p>
+
+        <!-- Здесь меняются названия позиций, описания и цены «от ... ₽» -->
+        <div class="cards">
+          <article class="card">
+            <div class="card-media">
+              <img src="https://picsum.photos/seed/cake-author/600/420"
+                   alt="Авторский праздничный торт с ягодным декором"
+                   width="600" height="420" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Авторский торт</h3>
+              <p class="card-text">Праздничный торт по вашей задумке: бисквит, крем, начинка и декор на выбор. От 1,5 до 12 кг.</p>
+              <ul class="card-list">
+                <li>6 видов бисквита</li>
+                <li>12 начинок</li>
+                <li>Ягоды, шоколад, фигурки</li>
+              </ul>
+              <p class="card-price">от <span class="price-value">1800</span>&nbsp;₽/кг</p>
+              <a class="btn btn--outline card-btn" href="#contacts">Заказать торт</a>
+            </div>
+          </article>
+
+          <article class="card card--featured">
+            <p class="card-badge">Хит заказов</p>
+            <div class="card-media">
+              <img src="https://picsum.photos/seed/cupcake-set/600/420"
+                   alt="Набор капкейков с кремом-маскарпоне разной глазури"
+                   width="600" height="420" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Капкейки, набор</h3>
+              <p class="card-text">Комплект мини-пирожных для чаепития, фотозоны или сладкого стола. Крышки-шапочки в тон праздника.</p>
+              <ul class="card-list">
+                <li>От 6 до 50 штук</li>
+                <li>Крем-маскарпоне или ганаш</li>
+                <li>Индивидуальная подача</li>
+              </ul>
+              <p class="card-price">от <span class="price-value">180</span>&nbsp;₽/шт</p>
+              <a class="btn btn--primary card-btn" href="#contacts">Заказать набор</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media">
+              <img src="https://picsum.photos/seed/dessert-box/600/420"
+                   alt="Десертный бокс с ассорти пирожных в крафтовой коробке"
+                   width="600" height="420" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Десертный бокс</h3>
+              <p class="card-text">Готовая коробка ассорти: эклеры, чизкейки, трайфлы и macarons. Отличный подарок без повода.</p>
+              <ul class="card-list">
+                <li>9 или 12 позиций</li>
+                <li>Крафт-коробка и открытка</li>
+                <li>Доставка в тот же день*</li>
+              </ul>
+              <p class="card-price">от <span class="price-value">1200</span>&nbsp;₽</p>
+              <a class="btn btn--outline card-btn" href="#contacts">Собрать бокс</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 5. ГАЛЕРЕЯ РАБОТ ================= -->
+    <section class="section gallery reveal" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <p class="section-eyebrow">Портфолио</p>
+        <h2 class="section-title" id="gallery-title">Галерея работ</h2>
+        <p class="section-note">Некоторые из моих тортов и десертов. Больше свежих фото — в сообществе ВКонтакте.</p>
+
+        <ul class="gallery-grid" role="list">
+          <li class="gallery-item">
+            <img src="https://picsum.photos/seed/cake1/500/500"
+                 alt="Детский торт с кремовыми фигурами животных"
+                 width="500" height="500" loading="lazy">
+          </li>
+          <li class="gallery-item">
+            <img src="https://picsum.photos/seed/cake2/500/500"
+                 alt="Ягодный торт со свежей малиной и кремом"
+                 width="500" height="500" loading="lazy">
+          </li>
+          <li class="gallery-item">
+            <img src="https://picsum.photos/seed/cake3/500/500"
+                 alt="Шоколадный торт с ганашем и золотой пудрой"
+                 width="500" height="500" loading="lazy">
+          </li>
+          <li class="gallery-item">
+            <img src="https://picsum.photos/seed/cake4/500/500"
+                 alt="Свадебный торт с цветочным декором"
+                 width="500" height="500" loading="lazy">
+          </li>
+          <li class="gallery-item">
+            <img src="https://picsum.photos/seed/cake5/500/500"
+                 alt="Разрез торта с видными коржами и начинкой"
+                 width="500" height="500" loading="lazy">
+          </li>
+          <li class="gallery-item">
+            <img src="https://picsum.photos/seed/cake6/500/500"
+                 alt="Капкейки на праздничном столе"
+                 width="500" height="500" loading="lazy">
+          </li>
+        </ul>
+
+        <p class="gallery-more">
+          <a class="btn btn--ghost" href="https://vk.com/sweets_ot_katy" target="_blank" rel="noopener noreferrer">
+            Все работы во ВКонтакте &#8594;
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= 6. КАК СДЕЛАТЬ ЗАКАЗ ================= -->
+    <section class="section section--tint how reveal" id="how" aria-labelledby="how-title">
+      <div class="container">
+        <p class="section-eyebrow">Процесс</p>
+        <h2 class="section-title" id="how-title">Как сделать заказ</h2>
+        <p class="section-note">Четыре простых шага — от вашего сообщения до торта на столе.</p>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step-num" aria-hidden="true">1</span>
+            <h3 class="step-title">Заявка</h3>
+            <p class="step-text">Напишите мне через форму ниже, ВКонтакте или мессенджер: повод, дата и примерный вес.</p>
+          </li>
+          <li class="step">
+            <span class="step-num" aria-hidden="true">2</span>
+            <h3 class="step-title">Обсуждение</h3>
+            <p class="step-text">Подбираем бисквит, начинку, крем и декор. Согласуем дизайн и точную стоимость.</p>
+          </li>
+          <li class="step">
+            <span class="step-num" aria-hidden="true">3</span>
+            <h3 class="step-title">Предоплата</h3>
+            <p class="step-text">50% на карту — это бронь даты и закупка продуктов. Остаток при получении.</p>
+          </li>
+          <li class="step">
+            <span class="step-num" aria-hidden="true">4</span>
+            <h3 class="step-title">Готово</h3>
+            <p class="step-text">Забираете самовывозом или я привожу торт к нужному времени. Приятного праздника!</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= 7. ОТЗЫВЫ ================= -->
+    <section class="section reviews reveal" id="reviews" aria-labelledby="reviews-title">
+      <div class="container">
+        <p class="section-eyebrow">Отзывы</p>
+        <h2 class="section-title" id="reviews-title">Что говорят клиенты</h2>
+
+        <!-- Здесь меняются тексты отзывов и имена -->
+        <ul class="review-grid" role="list">
+          <li>
+            <article class="review">
+              <p class="stars" aria-label="Оценка 5 из 5">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              <h3 class="review-title">Торт на 8 лет дочке</h3>
+              <blockquote class="review-text">
+                «Катя сделала торт ровно как на картинке, который прислала дочь. Крем
+                воздушный, совсем не приторно, дети съели всё за вечер. Спасибо за
+                терпение с моими правками!»
+              </blockquote>
+              <p class="review-author"><span class="avatar" aria-hidden="true">О</span>Ольга, Воронеж</p>
+            </article>
+          </li>
+          <li>
+            <article class="review">
+              <p class="stars" aria-label="Оценка 5 из 5">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              <h3 class="review-title">Десертный бокс в офис</h3>
+              <blockquote class="review-text">
+                «Заказывали набор на корпоратив — привезли вовремя, всё целое, красивая
+                коробка. Коллеги спрашивали контакты. Теперь только у Кати.»
+              </blockquote>
+              <p class="review-author"><span class="avatar" aria-hidden="true">Д</span>Дмитрий, Воронеж</p>
+            </article>
+          </li>
+          <li>
+            <article class="review">
+              <p class="stars" aria-label="Оценка 5 из 5">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              <h3 class="review-title">Без лактозы и глютена</h3>
+              <blockquote class="review-text">
+                «Думала, что диетический торт будет невкусным. Тут было наоборот — самый
+                нежный из всех, что пробовала. Очень выручает, что Катя честно считает
+                состав.»
+              </blockquote>
+              <p class="review-author"><span class="avatar" aria-hidden="true">М</span>Марина, Липецк</p>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= 8. FAQ (аккордеон) ================= -->
+    <section class="section section--tint faq reveal" id="faq" aria-labelledby="faq-title">
+      <div class="container container--narrow">
+        <p class="section-eyebrow">Вопросы</p>
+        <h2 class="section-title" id="faq-title">Частые вопросы</h2>
+
+        <div class="accordion" id="accordion">
+          <!-- Вопрос 1 -->
+          <div class="acc-item">
+            <h3 class="acc-heading">
+              <button class="acc-trigger" type="button" aria-expanded="false" aria-controls="acc-panel-1" id="acc-trigger-1">
+                За сколько дней нужно делать заказ?
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="acc-panel-1" role="region" aria-labelledby="acc-trigger-1">
+              <div class="acc-panel-inner">
+                <p>Обычные торты и капкейки бронирую за 3–5 дней до праздника. Сложный декор,
+                многоярусные и свадебные варианты — за 10–14 дней. Десертные боксы в наличии
+                иногда бывают на день, уточняйте в сообщении.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Вопрос 2 -->
+          <div class="acc-item">
+            <h3 class="acc-heading">
+              <button class="acc-trigger" type="button" aria-expanded="false" aria-controls="acc-panel-2" id="acc-trigger-2">
+                Можно ли сделать без глютена, лактозы или без сахара?
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="acc-panel-2" role="region" aria-labelledby="acc-trigger-2">
+              <div class="acc-panel-inner">
+                <p>Да. У меня есть проверенные рецептуры без глютена, без молочных продуктов
+                и сниженной сладости. Стоимость такого торта выше на 15–20% — из-за
+                специальных ингредиентов. Обязательно напишите об аллергии заранее.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Вопрос 3 -->
+          <div class="acc-item">
+            <h3 class="acc-heading">
+              <button class="acc-trigger" type="button" aria-expanded="false" aria-controls="acc-panel-3" id="acc-trigger-3">
+                Как происходит доставка и хранение?
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="acc-panel-3" role="region" aria-labelledby="acc-trigger-3">
+              <div class="acc-panel-inner">
+                <p>По Воронежу доставка от 300 ₽, за город считаю отдельно. Привожу торт в
+                холодильнике-термосе к согласованному времени. Хранить десерт нужно в
+                холодильнике при +2…+6 °C, лучше съесть в течение 24–36 часов.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Вопрос 4 -->
+          <div class="acc-item">
+            <h3 class="acc-heading">
+              <button class="acc-trigger" type="button" aria-expanded="false" aria-controls="acc-panel-4" id="acc-trigger-4">
+                Какие есть гарантии и можно ли вернуть заказ?
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="acc-panel-4" role="region" aria-labelledby="acc-trigger-4">
+              <div class="acc-panel-inner">
+                <p>Я работаю официально как самозанятая и выдаю чек. Если торт приехал с браком
+                или не соответствует согласованному дизайну — верну деньги или испеку новый.
+                Отменить заказ без потери предоплаты можно минимум за 48 часов: к этому
+                моменту продукты уже куплены.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 9. КОНТАКТЫ + ФОРМА ЗАКАЗА ================= -->
+    <section class="section contacts reveal" id="contacts" aria-labelledby="contacts-title">
+      <div class="container contacts-grid">
+
+        <div class="contacts-info">
+          <p class="section-eyebrow">Контакты</p>
+          <h2 class="section-title" id="contacts-title">Закажите свой идеальный торт</h2>
+          <p class="section-note">
+            Заполните форму — напишу в течение часа и посчитаю стоимость. Или сразу
+            пишите в удобный мессенджер.
+          </p>
+
+          <!-- Здесь меняются телефон, адрес, email и ссылки на соцсети -->
+          <ul class="contact-list" role="list">
+            <li>
+              <span class="contact-label">Телефон</span>
+              <a href="tel:+79990000000">+7 (999) 000-00-00</a>
+            </li>
+            <li>
+              <span class="contact-label">Email</span>
+              <a href="mailto:hello@example.com">hello@example.com</a>
+            </li>
+            <li>
+              <span class="contact-label">Город</span>
+              <span>Воронеж, Россия</span>
+            </li>
+            <li>
+              <span class="contact-label">Режим</span>
+              <span>Приём заявок ежедневно, 09:00–21:00</span>
+            </li>
+          </ul>
+
+          <ul class="socials" aria-label="Социальные сети и мессенджеры" role="list">
+            <li>
+              <a class="social social--vk" href="https://vk.com/sweets_ot_katy" target="_blank" rel="noopener noreferrer" aria-label="Сообщество ВКонтакте: sweets_ot_katy">
+                <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path d="M12.9 17c-4.7 0-7.6-3.3-7.7-8.8h2.4c.1 4 1.9 5.7 3.3 6V8.2h2.2v3.4c1.4-.7 2.8-2.4 2.9-4.4h2.2c-.2 2.3-1.6 4-2.6 4.7 1 .6 2.6 2.1 3.2 4.1h-2.4c-.5-1.5-1.7-2.8-2.8-3.1V17h-.7z"/>
+                </svg>
+                <span>ВКонтакте</span>
+              </a>
+            </li>
+            <li>
+              <!-- Замените # на ссылку вида https://t.me/ваш_ник -->
+              <a class="social social--tg" href="#" aria-label="Написать в Telegram">
+                <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path d="M21.5 4.3 2.9 11.6c-1 .4-1 1.9 0 2.2l4.6 1.4 1.8 5.3c.3.8 1.3 1 1.9.4l2.5-2.4 4.6 3.4c.9.7 2.1.2 2.3-.9l3-14.9c.2-1.1-.9-2-1.7-1.8zM9.6 14.4l7.8-5.9c.3-.2.6.2.4.4l-6.3 6.6c-.3.3-.5.8-.6 1.3l-.3 1.9-1-4.3z"/>
+                </svg>
+                <span>Telegram</span>
+              </a>
+            </li>
+            <li>
+              <!-- Замените # на ссылку вида https://wa.me/79990000000 -->
+              <a class="social social--wa" href="#" aria-label="Написать в WhatsApp">
+                <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.4 14c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.9-2.6-1.3-4.2-3.9-4.4-4.1-.1-.2-1-1.4-1-2.7s.6-1.9.9-2.2c.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.5c-.1.2-.3.3-.1.6.2.3.8 1.3 1.6 1.9 1 .8 1.9 1.1 2.2 1.2.2.1.4.1.6-.1l.7-.9c.2-.2.4-.2.6-.1l2 1c.2.1.4.2.4.3.1.2.1.7-.1 1.2z"/>
+                </svg>
+                <span>WhatsApp</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!--
+          Форма без бэкенда: отправка обрабатывается в script.js и показывает alert.
+          Чтобы подключить реальный приём заявок — замените обработчик на fetch()
+          к вашему API или сервису форм.
+        -->
+        <div class="form-wrap">
+          <form class="order-form" id="order-form" novalidate>
+            <h3 class="form-title">Форма заказа</h3>
+
+            <div class="field">
+              <label for="f-name">Ваше имя <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="f-name" name="name" autocomplete="name"
+                     placeholder="Как к вам обращаться" required aria-required="true">
+              <p class="field-error" data-error-for="f-name" role="alert" hidden>Пожалуйста, укажите имя.</p>
+            </div>
+
+            <div class="field">
+              <label for="f-phone">Телефон <span class="req" aria-hidden="true">*</span></label>
+              <input type="tel" id="f-phone" name="phone" autocomplete="tel"
+                     placeholder="+7 (___) ___-__-__" required aria-required="true">
+              <p class="field-error" data-error-for="f-phone" role="alert" hidden>Введите корректный номер телефона.</p>
+            </div>
+
+            <div class="field">
+              <label for="f-date">Дата праздника <span class="req" aria-hidden="true">*</span></label>
+              <input type="date" id="f-date" name="date" required aria-required="true">
+              <p class="field-error" data-error-for="f-date" role="alert" hidden>Выберите дату праздника.</p>
+            </div>
+
+            <div class="field">
+              <label for="f-type">Тип изделия <span class="req" aria-hidden="true">*</span></label>
+              <select id="f-type" name="type" required aria-required="true">
+                <option value="" selected>— выберите —</option>
+                <option value="Авторский торт">Авторский торт</option>
+                <option value="Капкейки, набор">Капкейки, набор</option>
+                <option value="Десертный бокс">Десертный бокс</option>
+                <option value="Другое">Другое / подскажи в комментарии</option>
+              </select>
+              <p class="field-error" data-error-for="f-type" role="alert" hidden>Выберите тип изделия.</p>
+            </div>
+
+            <div class="field field--full">
+              <label for="f-comment">Комментарий <span class="optional">(необязательно)</span></label>
+              <textarea id="f-comment" name="comment" rows="3"
+                        placeholder="Повод, количество гостей, любимые вкусы, декор"></textarea>
+            </div>
+
+            <div class="form-foot">
+              <button class="btn btn--primary btn--lg" type="submit">Отправить заявку</button>
+              <p class="form-hint">Нажимая кнопку, вы соглашаетесь на обработку персональных данных.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= 10. ФУТЕР ================= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <p class="footer-logo">Торты от Кати</p>
+        <p class="footer-tagline">Домашние торты и десерты на заказ в Воронеже. Пею из натуральных ингредиентов, доставляю к вашему празднику.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Навигация в подвале">
+        <h2 class="footer-title">Разделы</h2>
+        <ul>
+          <li><a href="#about">Обо мне</a></li>
+          <li><a href="#catalog">Каталог</a></li>
+          <li><a href="#gallery">Галерея работ</a></li>
+          <li><a href="#how">Как заказать</a></li>
+          <li><a href="#reviews">Отзывы</a></li>
+          <li><a href="#faq">Частые вопросы</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-contacts">
+        <h2 class="footer-title">Связаться</h2>
+        <ul>
+          <li><a href="tel:+79990000000">+7 (999) 000-00-00</a></li>
+          <li><a href="https://vk.com/sweets_ot_katy" target="_blank" rel="noopener noreferrer">ВКонтакте: sweets_ot_katy</a></li>
+          <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+          <li>Воронеж, Россия</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year">2026</span> Торты от Кати. Демонстрационный сайт.</p>
+      <a class="to-top" href="#top">Наверх &#8593;</a>
+    </div>
+  </footer>
+
+  <!-- Плавающая кнопка быстрого перехода к форме (мобильные) -->
+  <a class="fab" href="#contacts" aria-label="Быстро перейти к форме заказа">
+    <span aria-hidden="true">&#127874;</span>
+  </a>
+
+  <noscript>
+    <p class="noscript-note">Для аккордеона и мобильного меню включите JavaScript — но весь контент доступен и без него.</p>
+  </noscript>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
