@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Lili Gerc — художественная и репортажная фотосъёмка</title>
+  <meta name="description" content="Lili Gerc — фотограф. Портретные, художественные и репортажные фотосессии в нескольких городах. Тёплые кадры, которые хочется пересматривать. Запись на съёмку через форму." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Lili Gerc — фотосессии, которые хочется пересматривать" />
+  <meta property="og:description" content="Портретные, художественные и репортажные фотосъёмки. Съёмки в нескольких городах. Записаться можно через форму на сайте." />
+  <meta property="og:image" content="https://picsum.photos/seed/liliphotohero/1200/630" />
+  <meta property="og:locale" content="ru_RU" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23ece7df'/%3E%3Ccircle cx='50' cy='50' r='24' fill='none' stroke='%23d97c5f' stroke-width='7'/%3E%3Ccircle cx='50' cy='50' r='9' fill='%231c1b19'/%3E%3C/svg%3E" />
+
+  <!-- Fonts (одна ссылка, кириллица) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Manrope:wght@400;500;600&display=swap&subset=cyrillic" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ШАПКА -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="logo">Lili<span>Gerc</span></a>
+
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <ul class="nav-list">
+          <li><a href="#about">Обо мне</a></li>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#reviews">Отзывы</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact" class="nav-cta">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow reveal">Художественная &amp; репортажная съёмка</p>
+        <h1 class="reveal">Фотосессии, которые<br />хочется пересматривать</h1>
+        <p class="hero-sub reveal">Живые эмоции, мягкий свет и внимательная работа с каждым кадром.
+          Портреты, истории и репортажи — в комфортном для вас городе.</p>
+        <div class="hero-actions reveal">
+          <a href="#contact" class="btn btn-primary">Записаться на съёмку</a>
+          <a href="#portfolio" class="btn btn-ghost">Смотреть портфолио</a>
+        </div>
+      </div>
+      <div class="hero-media reveal">
+        <img src="https://picsum.photos/seed/liliphotohero/900/1100" alt="Пример художественного портрета" loading="eager" />
+      </div>
+    </section>
+
+    <!-- ОБО МНЕ -->
+    <section class="section about" id="about">
+      <div class="container two-col">
+        <div class="about-media reveal">
+          <img src="https://picsum.photos/seed/liliphotoauthor/800/1000" alt="Фотограф Lili Gerc" loading="lazy" />
+        </div>
+        <div class="about-text">
+          <h2 class="reveal">Обо мне</h2>
+          <p class="reveal">Меня зовут Лили, я фотограф. Работаю на стыке художественной и
+            репортажной съёмки: умею выстроить красивый кадр и одновременно поймать настоящий,
+            не постановочный момент.</p>
+          <p class="reveal">Для меня фотография — это не про идеальные позы, а про человека и его
+            состояние. Помогаю расслабиться перед камерой, подсказываю, куда деть руки и как встать,
+            чтобы вам понравилось то, что вы увидите в итоге.</p>
+          <ul class="about-facts reveal">
+            <li><span>6+</span> лет за камерой</li>
+            <li><span>несколько</span> городов съёмки</li>
+            <li><span>100%</span> кадров с цветокоррекцией</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- УСЛУГИ -->
+    <section class="section services" id="services">
+      <div class="container">
+        <h2 class="reveal">Услуги</h2>
+        <p class="section-lead reveal">Форматы съёмки под разные задачи. Цены условные и зависят от
+          локации, времени и объёма обработки.</p>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card-icon">01</div>
+            <h3>Портрет</h3>
+            <p>Индивидуальная съёмка на себя: крупный план, характер, настроение. Студия или улица.</p>
+            <p class="price">от 6 000 ₽</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">02</div>
+            <h3>Love story</h3>
+            <p>История про вас двоих — прогулки, диалоги, живые эмоции и нежность без пафоса.</p>
+            <p class="price">от 9 000 ₽</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">03</div>
+            <h3>Репортаж</h3>
+            <p>Съёмка событий: праздник, день рождения, небольшое мероприятие. Не вмешиваюсь в ход дня.</p>
+            <p class="price">от 12 000 ₽</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">04</div>
+            <h3>Предметная съёмка</h3>
+            <p>Товары, украшения, косметика и еда для каталогов, маркетплейсов и соцсетей.</p>
+            <p class="price">от 4 500 ₽</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ПОРТФОЛИО -->
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="reveal">Портфолио</h2>
+        <p class="section-lead reveal">Подборка работ в разных жанрах — от портретов до репортажа.</p>
+
+        <div class="grid gallery">
+          <figure class="tile reveal"><img src="https://picsum.photos/seed/liliphoto1/800/600" alt="Портретная съёмка" loading="lazy" /></figure>
+          <figure class="tile reveal"><img src="https://picsum.photos/seed/liliphoto2/800/1000" alt="Художественный кадр" loading="lazy" /></figure>
+          <figure class="tile reveal"><img src="https://picsum.photos/seed/liliphoto3/800/600" alt="Love story" loading="lazy" /></figure>
+          <figure class="tile reveal"><img src="https://picsum.photos/seed/liliphoto4/800/1000" alt="Уличный портрет" loading="lazy" /></figure>
+          <figure class="tile reveal"><img src="https://picsum.photos/seed/liliphoto5/800/600" alt="Репортажный кадр" loading="lazy" /></figure>
+          <figure class="tile reveal"><img src="https://picsum.photos/seed/liliphoto6/800/1000" alt="Съёмка настроения" loading="lazy" /></figure>
+          <figure class="tile reveal"><img src="https://picsum.photos/seed/liliphoto7/800/600" alt="Предметная съёмка" loading="lazy" /></figure>
+          <figure class="tile reveal"><img src="https://picsum.photos/seed/liliphoto8/800/600" alt="Семейный портрет" loading="lazy" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ОТЗЫВЫ -->
+    <section class="section reviews" id="reviews">
+      <div class="container">
+        <h2 class="reveal">Отзывы</h2>
+        <div class="cards review-cards">
+          <article class="card review-card reveal">
+            <p class="stars" aria-hidden="true">★★★★★</p>
+            <blockquote>«Первый раз было так спокойно перед камерой. В итоге получила кадры, которые
+              реально пересматриваю, а не просто сохраняю.»</blockquote>
+            <p class="who">Клиент портретной съёмки</p>
+          </article>
+
+          <article class="card review-card reveal">
+            <p class="stars" aria-hidden="true">★★★★★</p>
+            <blockquote>«Снимала наше love story — поймала моменты, которых мы сами не заметили.
+              Очень тепло и без неловких поз.»</blockquote>
+            <p class="who">Пара, съёмка love story</p>
+          </article>
+
+          <article class="card review-card reveal">
+            <p class="stars" aria-hidden="true">★★★★★</p>
+            <blockquote>«Репортаж с праздника — будто заново прожили день. Всё живо, ничего не
+              упущено, отдали быстро.»</blockquote>
+            <p class="who">Заказчик репортажной съёмки</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" id="faq">
+      <div class="container narrow">
+        <h2 class="reveal">Частые вопросы</h2>
+        <div class="accordion reveal">
+          <div class="acc-item">
+            <button class="acc-head" aria-expanded="false">Где вы снимаете?<span class="acc-mark"></span></button>
+            <div class="acc-body"><p>Работаю в нескольких городах — студию или локацию подбираем под задачу.
+              Могу выехать на улицу, природу или к вам. Точные города и условия обсуждаем при записи.</p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-head" aria-expanded="false">Сколько фотографий я получу?<span class="acc-mark"></span></button>
+            <div class="acc-body"><p>С каждого часа съёмки — около 30–50 обработанных кадров в финале.
+              Полный массив с черновыми вариантами не отдаю, чтобы не размывать результат.</p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-head" aria-expanded="false">Входит ли ретушь в стоимость?<span class="acc-mark"></span></button>
+            <div class="acc-body"><p>Да, базовая цветокоррекция и лёгкая ретушь уже включены.
+              Сложная художественная ретушь (изменение фигуры, глубокая обработка) — по запросу отдельно.</p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-head" aria-expanded="false">Какие сроки сдачи?<span class="acc-mark"></span></button>
+            <div class="acc-body"><p>Обычно 5–10 рабочих дней. По репортажным съёмкам стараюсь отдавать
+              часть кадров уже на следующий день, если нужно для соцсетей или события.</p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-head" aria-expanded="false">Как записаться на съёмку?<span class="acc-mark"></span></button>
+            <div class="acc-body"><p>Заполните форму ниже — имя, контакт и тип съёмки. Я свяжусь с вами,
+              обсудим идею, дату и локацию, а предоплата бронирует ваше время.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ФОРМА ЗАЯВКИ -->
+    <section class="section contact" id="contact">
+      <div class="container narrow">
+        <div class="contact-panel reveal">
+          <h2>Записаться на съёмку</h2>
+          <p class="section-lead">Оставьте заявку — вернусь с деталями и свободными датами.</p>
+
+          <form id="booking-form" novalidate>
+            <div class="field">
+              <label for="name">Имя</label>
+              <input type="text" id="name" name="name" placeholder="Как к вам обращаться" required />
+            </div>
+            <div class="field">
+              <label for="contact-input">Контакт (VK, почта или мессенджер)</label>
+              <input type="text" id="contact-input" name="contact" placeholder="Ссылка или ник для связи" required />
+            </div>
+            <div class="field">
+              <label for="type">Тип съёмки</label>
+              <select id="type" name="type" required>
+                <option value="" disabled selected>Выберите формат</option>
+                <option value="portrait">Портрет</option>
+                <option value="lovestory">Love story</option>
+                <option value="reportage">Репортаж</option>
+                <option value="product">Предметная съёмка</option>
+                <option value="other">Другое / не определился</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Отправить заявку</button>
+            <p class="form-note">Нажимая кнопку, вы соглашаетесь на обработку данных заявки.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ФУТЕР -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="#top" class="logo logo-footer">Lili<span>Gerc</span></a>
+      <p class="footer-text">Художественная и репортажная фотосъёмка.<br />Съёмки в нескольких городах.</p>
+      <a class="vk-link" href="https://vk.com" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="currentColor"><path d="M12.9 16.8c-5 0-8.2-3.5-8.3-9.3h2.5c.1 4.3 2 6.1 3.5 6.5V7.5h2.4v3.6c1.5-.2 3-1.8 3.6-3.6h2.4c-.4 2.2-2 3.8-3.1 4.5 1.1.6 3 2 3.7 4.8h-2.7c-.5-1.8-1.9-3.2-3.9-3.4v3.4h-.1z"/></svg>
+        Мы ВКонтакте
+      </a>
+      <p class="copyright">© <span id="year"></span> Lili Gerc. Демонстрационный сайт.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
