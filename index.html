@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Демо-сайты — портфолио одностраничников</title>
+  <meta name="description" content="Демонстрационные сайты-визитки для экспертов и мастеров из разных городов России." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💼</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root { --bg:#0e1116; --card:#171c24; --accent:#5b8cff; --muted:#9aa6b8; --text:#eef2f8; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Inter, system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; }
+    .wrap { max-width: 1040px; margin: 0 auto; padding: 48px 20px 80px; }
+    header h1 { font-size: clamp(28px, 5vw, 44px); letter-spacing: -0.02em; }
+    header p { color: var(--muted); margin-top: 10px; max-width: 60ch; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; margin-top: 36px; }
+    a.card { display: block; text-decoration: none; color: inherit; background: var(--card); border: 1px solid #232b37; border-radius: 16px; padding: 22px; transition: transform .2s ease, border-color .2s ease; }
+    a.card:hover { transform: translateY(-4px); border-color: var(--accent); }
+    .tag { display: inline-block; font-size: 12px; color: var(--accent); background: rgba(91,140,255,.12); padding: 3px 10px; border-radius: 999px; margin-bottom: 12px; }
+    .card h2 { font-size: 19px; margin-bottom: 4px; }
+    .card .city { color: var(--muted); font-size: 14px; }
+    .card .open { display: inline-block; margin-top: 14px; font-weight: 600; font-size: 14px; }
+    footer { margin-top: 48px; color: var(--muted); font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Демо-сайты · портфолио</h1>
+      <p>Семь современных одностраничных сайтов-визиток для экспертов и мастеров из разных городов России. Каждый — отдельная папка, готовая к продаже после правок под клиента.</p>
+    </header>
+
+    <main class="grid">
+      <a class="card" href="01-realtor-ufa/index.html"><span class="tag">Недвижимость</span><h2>Константин Адылбаев</h2><div class="city">Риелтор · Уфа</div><span class="open">Открыть →</span></a>
+      <a class="card" href="02-manicure-tver/index.html"><span class="tag">Бьюти</span><h2>Ирина Маслевская</h2><div class="city">Мастер маникюра · Тверь</div><span class="open">Открыть →</span></a>
+      <a class="card" href="03-nutrition-chelyabinsk/index.html"><span class="tag">Здоровье</span><h2>Ольга Дятчина</h2><div class="city">Нутрициолог · Челябинск</div><span class="open">Открыть →</span></a>
+      <a class="card" href="04-psychologist-samara-nadezhda/index.html"><span class="tag">Психология</span><h2>Надежда Козочкина</h2><div class="city">Психолог · Самара</div><span class="open">Открыть →</span></a>
+      <a class="card" href="05-psychologist-samara-natalia/index.html"><span class="tag">Психология</span><h2>Наталья Пробкина</h2><div class="city">Психолог · Самара</div><span class="open">Открыть →</span></a>
+      <a class="card" href="06-english-tutor-kazan/index.html"><span class="tag">Образование</span><h2>Рената</h2><div class="city">Репетитор английского · Казань</div><span class="open">Открыть →</span></a>
+      <a class="card" href="07-beauty-photo-perm/index.html"><span class="tag">Фото</span><h2>Фотостудия</h2><div class="city">Свадебный/бьюти фотограф · Пермь</div><span class="open">Открыть →</span></a>
+    </main>
+
+    <footer>Демонстрационные сайты. Тексты, цены, телефоны и ссылки на соцсети замените под реального клиента перед продажей.</footer>
+  </div>
+</body>
+</html>

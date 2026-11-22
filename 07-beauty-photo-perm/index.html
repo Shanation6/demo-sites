@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO: при необходимости замените title/description под себя -->
+  <title>Анна Верещагина — свадебный и портретный фотограф в Перми</title>
+  <meta name="description" content="Свадебная съёмка, love story, портреты и бьюти-фото в Перми. Тёплая естественная светлая картинка, премиальный сервис, бронирование даты онлайн.">
+  <meta name="keywords" content="фотограф Пермь, свадебный фотограф, love story, портретная съёмка, бьюти фото">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Анна Верещагина — свадебный и портретный фотограф в Перми">
+  <meta property="og:description" content="Love story, свадьбы, портреты и бьюти-съёмка. Светлая воздушная картинка, много воздуха и крупных кадров.">
+  <meta property="og:image" content="https://picsum.photos/seed/herophoto/1200/630">
+  <meta property="og:url" content="https://example.com/">
+  <meta name="theme-color" content="#fbfaf8">
+
+  <!-- Favicon: монограмма в виде SVG data-URI (замените буквы «АВ» на свои) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23c98a8a'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='28' fill='%23fbfaf8' text-anchor='middle'%3EAB%3C/text%3E%3C/svg%3E">
+
+  <!-- Шрифты: заголовки Cormorant Garamond + текст Jost -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===================== ШАПКА ===================== -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="Наверх, на главную">
+        <span class="monogram" aria-hidden="true">АВ</span>
+        <!-- ИМЯ / НАЗВАНИЕ СТУДИИ — заменить здесь -->
+        <span class="brand-text">Анна&nbsp;Верещагина<span class="brand-sub">фотограф · Пермь</span></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Основная навигация">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">Обо мне</a></li>
+          <li><a href="#services" class="nav-link">Услуги</a></li>
+          <li><a href="#portfolio" class="nav-link">Портфолио</a></li>
+          <li><a href="#process" class="nav-link">Как проходит</a></li>
+          <li><a href="#reviews" class="nav-link">Отзывы</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contacts" class="nav-link">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <a href="#booking" class="btn btn-primary header-cta">Забронировать</a>
+
+      <button class="burger" id="burgerBtn" type="button"
+              aria-controls="mainNav" aria-expanded="false" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <!-- ФОН HERO: замените seed herophoto на своё фото -->
+      <div class="hero-bg" role="img" aria-label="Свадебная пара в мягком вечернем свете"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="container hero-content reveal">
+        <p class="hero-eyebrow">Свадьбы · Love story · Портрет · Бьюти</p>
+        <h1 id="hero-title" class="hero-title">Свадебная и&nbsp;портретная съёмка в&nbsp;Перми</h1>
+        <p class="hero-subtitle">Светлые, воздушные кадры, которые хочется распечатать и&nbsp;повесить на&nbsp;стену.</p>
+        <div class="hero-actions">
+          <a href="#booking" class="btn btn-primary btn-lg">Бронирование даты</a>
+          <a href="#portfolio" class="btn btn-ghost btn-lg">Смотреть работы</a>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-hint" aria-label="Прокрутить вниз">
+        <span class="scroll-line" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <!-- ===================== ОБО МНЕ ===================== -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-photo reveal">
+          <!-- ФОТО «ОБО МНЕ»: замените seed aboutphoto на своё -->
+          <img src="https://picsum.photos/seed/aboutphoto/700/900"
+               alt="Фотограф за работой с камерой в руках" loading="lazy" width="700" height="900">
+        </div>
+        <div class="about-text reveal">
+          <p class="section-eyebrow">Обо мне</p>
+          <h2 id="about-title" class="section-title">Живые эмоции, а не постановочные позы</h2>
+          <p>Меня зовут Анна, и уже более девяти лет я снимаю свадьбы, love story и портреты в Перми и за её пределами. Мой стиль — светлая, воздушная, «дышащая» картинка: много пространства, естественный свет и минимум ретуши.</p>
+          <p>На съёмке я создаю спокойную атмосферу, в которой легко быть собой: мы гуляем, разговариваем, смеётесь — а я ловлю настоящие моменты. В кадре остаются не «правильные улыбки», а тот самый взгляд, который вы запомните.</p>
+          <p>Каждая история для меня уникальна, поэтому пакеты мы всегда собираем вместе — от короткой прогулки до полного свадебного дня.</p>
+          <ul class="about-facts">
+            <li><strong>9+</strong> лет в свадебной съёмке</li>
+            <li><strong>250+</strong> проведённых съёмок</li>
+            <li><strong>48 ч</strong> — превью кадров</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== УСЛУГИ / ПАКЕТЫ ===================== -->
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">Услуги</p>
+          <h2 id="services-title" class="section-title">Пакеты съёмки</h2>
+          <p class="section-lead">Цены указаны «от» и зависят от локации, дня недели и объёма обработки. Точную сметку пришлю после заявки.</p>
+        </div>
+
+        <!-- ЦЕНЫ — заменить здесь -->
+        <div class="cards-grid">
+          <article class="price-card reveal">
+            <h3 class="card-title">Love story</h3>
+            <p class="card-price">от 12 000 ₽</p>
+            <p class="card-desc">Прогулка вдвоём по любимым местам города или за городом.</p>
+            <ul class="card-list">
+              <li>1–2 часа съёмки</li>
+              <li>Выбор локации и помощь с образами</li>
+              <li>40 кадров в авторской обработке</li>
+              <li>Галерея для просмотра с телефона</li>
+            </ul>
+            <a href="#booking" class="btn btn-outline card-btn" data-service="love">Обсудить съёмку</a>
+          </article>
+
+          <article class="price-card price-card--featured reveal">
+            <span class="card-badge" aria-hidden="true">Хит</span>
+            <h3 class="card-title">Свадьба полный день</h3>
+            <p class="card-price">от 45 000 ₽</p>
+            <p class="card-desc">Собираюсь одна и веду съёмку весь день без ассистента.</p>
+            <ul class="card-list">
+              <li>8–12 часов непрерывной съёмки</li>
+              <li>Сборы, церемония, банкет, вечерняя логика дня</li>
+              <li>От 400 обработанных кадров</li>
+              <li>Превью через 48 часов, альбом — до 30 дней</li>
+            </ul>
+            <a href="#booking" class="btn btn-primary card-btn" data-service="wedding">Забронировать дату</a>
+          </article>
+
+          <article class="price-card reveal">
+            <h3 class="card-title">Портретная съёмка</h3>
+            <p class="card-price">от 9 000 ₽</p>
+            <p class="card-desc">Индивидуальный или семейный портрет, бьюти и предметная съёмка.</p>
+            <ul class="card-list">
+              <li>Студия, интерьер или улица</li>
+              <li>Помощь с позированием с первого кадра</li>
+              <li>25 кадров в ретуши</li>
+              <li>Подходит для контента и соцсетей</li>
+            </ul>
+            <a href="#booking" class="btn btn-outline card-btn" data-service="portrait">Записаться</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ПОРТФОЛИО ===================== -->
+    <section class="section portfolio" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">Портфолио</p>
+          <h2 id="portfolio-title" class="section-title">Избранные кадры</h2>
+        </div>
+
+        <!-- ФОТО ПОРТФОЛИО: замените seed phN на свои изображения -->
+        <ul class="masonry" role="list">
+          <li class="masonry-item reveal">
+            <img src="https://picsum.photos/seed/ph1/600/800" alt="Невеста в кружевном платье у окна" loading="lazy">
+          </li>
+          <li class="masonry-item masonry-item--wide reveal">
+            <img src="https://picsum.photos/seed/ph2/900/600" alt="Пара на берегу Камы на закате" loading="lazy">
+          </li>
+          <li class="masonry-item reveal">
+            <img src="https://picsum.photos/seed/ph3/600/700" alt="Момент первой встречи жениха и невесты" loading="lazy">
+          </li>
+          <li class="masonry-item reveal">
+            <img src="https://picsum.photos/seed/ph4/600/900" alt="Портрет невесты крупным планом" loading="lazy">
+          </li>
+          <li class="masonry-item reveal">
+            <img src="https://picsum.photos/seed/ph5/600/700" alt="Букет невесты в пастельных тонах" loading="lazy">
+          </li>
+          <li class="masonry-item masonry-item--wide reveal">
+            <img src="https://picsum.photos/seed/ph6/900/600" alt="Банкетный зал в тёплом вечернем свете" loading="lazy">
+          </li>
+          <li class="masonry-item reveal">
+            <img src="https://picsum.photos/seed/ph7/600/800" alt="Жених и невеста в танце" loading="lazy">
+          </li>
+          <li class="masonry-item reveal">
+            <img src="https://picsum.photos/seed/ph8/600/700" alt="Детали: кольца и приглашения на съёмочном столе" loading="lazy">
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== КАК ПРОХОДИТ СЪЁМКА ===================== -->
+    <section class="section process" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">Процесс</p>
+          <h2 id="process-title" class="section-title">Как проходит съёмка</h2>
+        </div>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step-num" aria-hidden="true">01</span>
+            <h3 class="step-title">Знакомство и бронь</h3>
+            <p>Обсуждаем историю, референсы и площадку, выбираем концепцию. Дата закрепляется за вами после предоплаты.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num" aria-hidden="true">02</span>
+            <h3 class="step-title">Подготовка</h3>
+            <p>Помогаю с таймингом дня, советами по образам и позированию. Присылаю чек-лист, чтобы ничего не забыть.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num" aria-hidden="true">03</span>
+            <h3 class="step-title">Съёмочный день</h3>
+            <p>Снимаю естественно и незаметно, подсказываю только там, где нужно. Вы отдыхаете — кадры получаются сами.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num" aria-hidden="true">04</span>
+            <h3 class="step-title">Результат</h3>
+            <p>Через 48 часов приходит превью, полностью обработанная галерея — в течение месяца. Все права ваши.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== ОТЗЫВЫ ===================== -->
+    <section class="section reviews" id="reviews" aria-labelledby="reviews-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">Отзывы</p>
+          <h2 id="reviews-title" class="section-title">Что говорят пары</h2>
+        </div>
+
+        <!-- ТЕКСТЫ ОТЗЫВОВ — заменить на реальные -->
+        <div class="cards-grid">
+          <figure class="review-card reveal">
+            <blockquote>
+              <p>«Анна была незаметна весь день, но на снимках — каждая эмоция. Мы плакали, когда открывали галерею. Свет, воздух, ничего лишнего — именно то, что хотели.»</p>
+            </blockquote>
+            <figcaption>
+              <span class="review-name">Марина и Егор</span>
+              <span class="review-meta">Свадьба, август 2025</span>
+            </figcaption>
+          </figure>
+
+          <figure class="review-card reveal">
+            <blockquote>
+              <p>«Снимали love story зимой на Эспланаде — я ужасно мёрзла и стеснялась камеры. Анна так всё поставила, что через десять минут мы просто гуляли и шутили. Кадры — открытка.»</p>
+            </blockquote>
+            <figcaption>
+              <span class="review-name">Даша</span>
+              <span class="review-meta">Love story</span>
+            </figcaption>
+          </figure>
+
+          <figure class="review-card reveal">
+            <blockquote>
+              <p>«Делала предметную съёмку для своего бренда косметики. Получила аккуратную, „дорогую“ картинку, которая подняла продажи в директе. Работаю с Анной на постоянной основе.»</p>
+            </blockquote>
+            <figcaption>
+              <span class="review-name">Ксения Р.</span>
+              <span class="review-meta">Бьюти / предметная съёмка</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FAQ ===================== -->
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="container container-narrow">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">Вопросы</p>
+          <h2 id="faq-title" class="section-title">Частые вопросы</h2>
+        </div>
+
+        <div class="accordion reveal" id="accordion">
+          <!-- ВОПРОСЫ/ОТВЕТЫ FAQ — заменить здесь -->
+          <div class="acc-item">
+            <h3 class="acc-heading">
+              <button class="acc-trigger" type="button" aria-expanded="false" aria-controls="faq-panel-1" id="faq-btn-1">
+                Как забронировать дату?
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-panel-1" role="region" aria-labelledby="faq-btn-1">
+              <div class="acc-panel-inner">
+                <p>Напишите через форму ниже или в сообщество ВКонтакте. После обсуждения деталей вы вносите предоплату 30% — и дата закрывается за вами в календаре. Остаток вносится в день съёмки.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="acc-item">
+            <h3 class="acc-heading">
+              <button class="acc-trigger" type="button" aria-expanded="false" aria-controls="faq-panel-2" id="faq-btn-2">
+                Сколько ждать готовые фотографии?
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-panel-2" role="region" aria-labelledby="faq-btn-2">
+              <div class="acc-panel-inner">
+                <p>Превью из 10–15 кадров приходит в течение 48 часов после съёмки — можно сразу поделиться в соцсетях. Полная обработанная галерея готова за 2–4 недели, для свадеб в высокий сезон указываю точный срок при бронировании.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="acc-item">
+            <h3 class="acc-heading">
+              <button class="acc-trigger" type="button" aria-expanded="false" aria-controls="faq-panel-3" id="faq-btn-3">
+                А если будет плохая погода?
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-panel-3" role="region" aria-labelledby="faq-btn-3">
+              <div class="acc-panel-inner">
+                <p>Дождь — это не проблема, а настроение. У меня есть проверенные крытые локации Перми и планы «Б» для каждой площадки. При сильном непогоде переносим уличную часть на другой день без штрафа.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="acc-item">
+            <h3 class="acc-heading">
+              <button class="acc-trigger" type="button" aria-expanded="false" aria-controls="faq-panel-4" id="faq-btn-4">
+                Нужно ли готовиться к съёмке?
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-panel-4" role="region" aria-labelledby="faq-btn-4">
+              <div class="acc-panel-inner">
+                <p>Специальная подготовка не нужна — я подскажу по образам, цветовой гамме и таймингу заранее. Для портретной съёмки достаточно выспаться и взять с собой два-три комплекта одежды. Позировать «не умею» — нормально, я направляю в каждом кадре.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== КОНТАКТЫ + ФОРМА ===================== -->
+    <section class="section contacts" id="contacts" aria-labelledby="contacts-title">
+      <div class="container contacts-grid">
+        <div class="contacts-info reveal">
+          <p class="section-eyebrow">Контакты</p>
+          <h2 id="contacts-title" class="section-title">Забронируйте дату</h2>
+          <p class="section-lead">Оставьте заявку — отвечу в течение дня и помогу подобрать пакет под вашу историю.</p>
+
+          <address class="contact-list">
+            <!-- ТЕЛЕФОН / EMAIL / ГОРОД — заменить здесь -->
+            <p><span class="contact-label">Телефон</span>
+              <a href="tel:+79000000000">+7 (900) 000-00-00</a></p>
+            <p><span class="contact-label">Почта</span>
+              <a href="mailto:hello@example.com">hello@example.com</a></p>
+            <p><span class="contact-label">Город</span>
+              <span>Пермь и выезд по России</span></p>
+          </address>
+
+          <ul class="socials socials--light" role="list">
+            <!-- СОЦСЕТИ: ссылка ВК реальная, остальные — заменить -->
+            <li><a class="social-link" href="https://vk.com/club63504037" target="_blank" rel="noopener" aria-label="Сообщество ВКонтакте">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12.9 17.3c-5.3 0-8.6-3.7-8.7-9.8h2.7c.1 4.5 2.1 6.4 3.6 6.8V7.5h2.6v3.8c1.5-.2 3-1.9 3.5-3.8h2.5c-.4 2.3-2 4-3.2 4.7 1.2.6 3 2.1 3.7 5.1h-2.9c-.5-1.8-1.9-3.2-3.6-3.4v3.4h-.8z"/></svg>
+              <span>ВКонтакте</span></a></li>
+            <li><a class="social-link" href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".9" fill="currentColor" stroke="none"/></svg>
+              <span>Instagram</span></a></li>
+            <li><a class="social-link" href="#" aria-label="Telegram">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M21.6 4.3 2.9 11.6c-1 .4-1 1.7 0 2l4.7 1.5 1.8 5.4c.3.8 1.3 1 1.9.4l2.5-2.4 4.6 3.4c.9.6 2 .1 2.2-1L22.9 5.6c.2-1-.7-1.7-1.3-1.3zM9.4 14.6l8-6.9-9.9 5.8-.3 3.6 2.2-2.5z"/></svg>
+              <span>Telegram</span></a></li>
+          </ul>
+        </div>
+
+        <div class="booking-form-wrap reveal" id="booking">
+          <form class="booking-form" id="bookingForm" novalidate>
+            <h3 class="form-title">Анкета на съёмку</h3>
+
+            <div class="field">
+              <label for="fName">Имя <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="fName" name="name" required autocomplete="name" placeholder="Как к вам обращаться">
+            </div>
+
+            <div class="field">
+              <label for="fPhone">Телефон <span class="req" aria-hidden="true">*</span></label>
+              <input type="tel" id="fPhone" name="phone" required autocomplete="tel" inputmode="tel" placeholder="+7 (___) ___-__-__">
+            </div>
+
+            <div class="field">
+              <label for="fDate">Дата съёмки</label>
+              <input type="date" id="fDate" name="date">
+            </div>
+
+            <div class="field">
+              <label for="fType">Тип съёмки</label>
+              <select id="fType" name="type">
+                <option value="love">Love story</option>
+                <option value="wedding">Свадьба полный день</option>
+                <option value="portrait">Портретная съёмка</option>
+                <option value="beauty">Бьюти / предметная</option>
+                <option value="other">Другое</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Отправить заявку</button>
+            <p class="form-note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== ФУТЕР ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="monogram monogram--dark" aria-hidden="true">АВ</span>
+        <p>Анна Верещагина<br><span class="footer-sub">свадебный и портретный фотограф, Пермь</span></p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Навигация в футере">
+        <ul>
+          <li><a href="#about">Обо мне</a></li>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <ul class="socials" role="list">
+        <li><a class="social-link social-link--round" href="https://vk.com/club63504037" target="_blank" rel="noopener" aria-label="ВКонтакте">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12.9 17.3c-5.3 0-8.6-3.7-8.7-9.8h2.7c.1 4.5 2.1 6.4 3.6 6.8V7.5h2.6v3.8c1.5-.2 3-1.9 3.5-3.8h2.5c-.4 2.3-2 4-3.2 4.7 1.2.6 3 2.1 3.7 5.1h-2.9c-.5-1.8-1.9-3.2-3.6-3.4v3.4h-.8z"/></svg></a></li>
+        <li><a class="social-link social-link--round" href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".9" fill="currentColor" stroke="none"/></svg></a></li>
+        <li><a class="social-link social-link--round" href="#" aria-label="Telegram">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M21.6 4.3 2.9 11.6c-1 .4-1 1.7 0 2l4.7 1.5 1.8 5.4c.3.8 1.3 1 1.9.4l2.5-2.4 4.6 3.4c.9.6 2 .1 2.2-1L22.9 5.6c.2-1-.7-1.7-1.3-1.3zM9.4 14.6l8-6.9-9.9 5.8-.3 3.6 2.2-2.5z"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year">2026</span> Анна Верещагина. Демонстрационный сайт.</p>
+      <a href="#top" class="to-top">Наверх ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
